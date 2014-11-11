@@ -27,7 +27,7 @@ Easy to use:
 
     - hosts: servers
       roles:
-         - { role: mrcrilly.mongodb }
+         - mrcrilly.mongodb
 
 License
 -------
