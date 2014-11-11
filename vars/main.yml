@@ -1,2 +1,33 @@
 ---
-# vars file for mrcrilly.mongodb
+mrcrilly_mongodb_manage_software: true
+mrcrilly_mongodb_manage_configuration: true
+mrcrilly_mongodb_configuration:
+  dbpath: /var/lib/mongodb
+  logpath: /var/log/mongodb/mongodb.log
+  logappend: true
+  bind_ip: 127.0.0.1
+  port: 27017
+  journal: true
+  cpu: true
+  noauth: true
+  auth: true
+  verbose: true
+  objcheck: true
+  quota: true
+  oplog: 0
+  nocursors: true
+  nohints: true
+  nohttpinterface: true
+  noscripting: true
+  notablescan: true
+  noprealloc: true
+  nssize: 16
+  slave: true
+  source: master.example.com
+  only: master.example.com
+  master: true
+  source: slave.example.com
+  autoresync: null
+  sslOnNormalPorts: true
+  sslPEMKeyFile: /etc/ssl/mongodb.pem
+  sslPEMKeyPassword: pass
