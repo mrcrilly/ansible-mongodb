@@ -4,10 +4,10 @@
   tags:
     - mrcrilly_mongodb
     - mrcrilly_mongodb_software
-  when: mrcrilly_mongodb_manage_software
+  when: mrcrilly_mongodb_manage_software | default(true)
 
 - include: configuration.yml
   tags:
     - mrcrilly_mongodb
     - mrcrilly_mongodb_configuration
-  when: mrcrilly_mongodb_manage_configuration
+  when: mrcrilly_mongodb_manage_configuration | default(true)
