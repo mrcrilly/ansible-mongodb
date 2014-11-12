@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   author: Michael Crilly
-  description:
+  description: MongoDB 2.4 role
   company: AutoLogic Technology Ltd
   license: BSD
   min_ansible_version: 1.7
