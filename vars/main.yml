@@ -8,22 +8,3 @@ mrcrilly_mongodb_configuration:
   logappend: true
   bind_ip: 127.0.0.1
   port: 27017
-  journal: true
-  cpu: true
-  noauth: true
-  auth: true
-  verbose: true
-  objcheck: true
-  quota: true
-  nohints: true
-  nohttpinterface: true
-  noscripting: true
-  notablescan: true
-  noprealloc: true
-  nssize: 16
-  slave: true
-  source: master.example.com
-  only: master.example.com
-  master: true
-  source: slave.example.com
-  autoresync: null
