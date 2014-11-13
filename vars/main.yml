@@ -15,8 +15,6 @@ mrcrilly_mongodb_configuration:
   verbose: true
   objcheck: true
   quota: true
-  oplog: 0
-  nocursors: true
   nohints: true
   nohttpinterface: true
   noscripting: true
