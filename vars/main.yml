@@ -27,6 +27,3 @@ mrcrilly_mongodb_configuration:
   master: true
   source: slave.example.com
   autoresync: null
-  sslOnNormalPorts: true
-  sslPEMKeyFile: /etc/ssl/mongodb.pem
-  sslPEMKeyPassword: pass
