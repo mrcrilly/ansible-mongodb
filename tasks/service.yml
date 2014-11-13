@@ -1,0 +1,4 @@
+---
+
+- name: Start the monogd process
+  service: name:mongod state=restarted
