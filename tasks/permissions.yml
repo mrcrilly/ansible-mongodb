@@ -1,0 +1,4 @@
+---
+
+- name: Fix permissions. This assumes you're using the CIS benchmarks.
+  file: path=/var/lib/mongodb owner=mongodb group=mongodb recursive=yes
