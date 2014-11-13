@@ -11,3 +11,9 @@
     - mrcrilly_mongodb
     - mrcrilly_mongodb_configuration
   when: mrcrilly_mongodb_manage_configuration | default(true)
+
+- include: permissions.yml
+  tags:
+    - mrcrilly_mongodb
+    - mrcrilly_mongodb_permissions
+  when: mrcrilly_mongodb_manage_permissions | default(true)
