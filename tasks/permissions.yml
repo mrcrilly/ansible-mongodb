@@ -4,6 +4,3 @@
   file: path=/var/lib/mongodb owner=mongodb group=mongodb recurse=yes
   notify: Restart MongoDB
 
-- name: Fix permissions for the configuration file (CIS Benchmark saviour)
-  file: path=/etc/mongodb.conf owner=root group=root mode=644
-  notify: Restart MongoDB
