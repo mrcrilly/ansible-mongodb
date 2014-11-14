@@ -1,9 +1,9 @@
 ---
 
 - name: Restart MongoDB
-  service: name=mongod state=restarted
+  service: name=mongod state=restarted enabled=yes
   when: mrcrilly_mongodb_manage_service | default(true)
 
 - name: Start MongoDB
-  service: name=mongod state=started
+  service: name=mongod state=started enabled=yes
   when: mrcrilly_mongodb_manage_service | default(true)
