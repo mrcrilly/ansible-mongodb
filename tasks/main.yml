@@ -17,3 +17,9 @@
     - mrcrilly_mongodb
     - mrcrilly_mongodb_permissions
   when: mrcrilly_mongodb_manage_permissions | default(true)
+
+- include: service.yml
+  tags:
+    - mrcrilly_mongodb
+    - mrcrilly_mongodb_service
+  when: mrcrilly_mongodb_manage_service | defaults(true)
