@@ -2,6 +2,7 @@
 mrcrilly_mongodb_manage_software: true
 mrcrilly_mongodb_manage_service: true
 mrcrilly_mongodb_manage_configuration: true
+mrcrilly_mongodb_manage_service: true
 mrcrilly_mongodb_configuration:
   dbpath: /var/lib/mongodb
   logpath: /var/log/mongodb/mongodb.log
