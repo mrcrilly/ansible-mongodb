@@ -38,4 +38,5 @@ Author Information
 ------------------
 
 - Michael Crilly
-- http://mrcrilly.github.io/
+- http://mrcrilly.me/
+- @mrcrilly
